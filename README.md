@@ -95,3 +95,8 @@ Re-scrape or call the GitHub API and update `githubStars`; they are snapshots an
 Some ideas (llms.txt listing only real resources, sitemap and SEO approach, source tiers) were inspired by [AIHOT](https://github.com/KKKKhazix/AIHOT) (MIT). No AIHOT code, name or branding is used here.
 
 Listed projects and trademarks belong to their owners. Descriptions are original summaries.
+
+## Deployment (v1)
+
+- Vercel project `agentyard` (team scope `caicais-projects-199d3cfa`), production URL https://agentyard-kappa.vercel.app
+- v1 was deployed via the Vercel API (file upload + create deployment), not Git. Once a GitHub repo exists, connect it in Vercel → Project → Settings → Git so every merged PR auto-deploys.
