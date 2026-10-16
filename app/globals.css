@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-brand-50: #eef6ff;
+  --color-brand-100: #d9eaff;
+  --color-brand-400: #5fa0ff;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-accent-400: #a3e635;
+}
+
+:root { color-scheme: dark; }
+body { @apply bg-zinc-950 text-zinc-100 antialiased; }
+::selection { background: rgb(59 130 246 / 0.35); }
+
+.prose-digest h2 { @apply mt-10 mb-3 text-xl font-semibold text-white; }
+.prose-digest h3 { @apply mt-6 mb-2 text-lg font-semibold text-white; }
+.prose-digest p { @apply my-3 leading-7 text-zinc-300; }
+.prose-digest ul { @apply my-3 list-disc space-y-2 pl-6 text-zinc-300; }
+.prose-digest li { @apply leading-7; }
+.prose-digest a { @apply text-brand-400 underline decoration-brand-400/40 underline-offset-2 hover:decoration-brand-400; }
+.prose-digest strong { @apply font-semibold text-white; }
+.prose-digest code { @apply rounded bg-zinc-800 px-1.5 py-0.5 font-mono text-[0.85em] text-zinc-200; }
+.prose-digest blockquote { @apply my-4 border-l-2 border-brand-500 pl-4 text-zinc-400; }
+.prose-digest hr { @apply my-8 border-zinc-800; }
