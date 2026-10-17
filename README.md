@@ -100,3 +100,5 @@ Listed projects and trademarks belong to their owners. Descriptions are original
 
 - Vercel project `agentyard` (team scope `caicais-projects-199d3cfa`), production URL https://agentyard-kappa.vercel.app
 - v1 was deployed via the Vercel API (file upload + create deployment), not Git. Once a GitHub repo exists, connect it in Vercel → Project → Settings → Git so every merged PR auto-deploys.
+
+<!-- git auto-deploy check 2026-10-17 -->
