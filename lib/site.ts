@@ -20,6 +20,7 @@ function resolveSiteUrl(): string {
 export const SITE_URL = resolveSiteUrl();
 export const abs = (path: string) => `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 
+/** @deprecated Prefer per-plan URLs on PRICING */
 export const SPONSOR_URL = process.env.NEXT_PUBLIC_SPONSOR_URL || "";
 
 export const PRICING = [
@@ -30,6 +31,7 @@ export const PRICING = [
     per: "/ week",
     blurb: "Top-of-homepage sponsored card plus a highlighted badge on your directory page.",
     bullets: ["Pinned sponsor card on the homepage", "Highlighted on your category page", "Marked “Sponsored”, always disclosed", "Do-follow link to your site"],
+    payUrl: process.env.NEXT_PUBLIC_SPONSOR_FEATURED_URL || process.env.NEXT_PUBLIC_SPONSOR_URL || "",
   },
   {
     id: "newsletter",
@@ -38,5 +40,8 @@ export const PRICING = [
     per: "/ issue",
     blurb: "One sponsor block at the top of the weekly digest, on the web archive, RSS and email.",
     bullets: ["Single sponsor per issue", "Appears in web archive + RSS + email", "60-word copy + link", "Booked first come, first served"],
+    payUrl: process.env.NEXT_PUBLIC_SPONSOR_NEWSLETTER_URL || process.env.NEXT_PUBLIC_SPONSOR_URL || "",
   },
 ] as const;
+
+export const hasAnySponsorPay = PRICING.some((p) => Boolean(p.payUrl));

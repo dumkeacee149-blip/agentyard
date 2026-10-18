@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PRICING, SITE, SPONSOR_URL } from "@/lib/site";
+import { PRICING, SITE, hasAnySponsorPay } from "@/lib/site";
 import { entries } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -24,8 +24,8 @@ export default function SponsorPage() {
             <p className="mt-3 text-sm text-zinc-400">{p.blurb}</p>
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">{p.bullets.map((b) => <li key={b} className="flex gap-2"><span className="text-lime-400">✓</span>{b}</li>)}</ul>
             <div className="mt-auto pt-6">
-              {SPONSOR_URL ? (
-                <a href={SPONSOR_URL} target="_blank" rel="noopener" className="inline-flex w-full items-center justify-center rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-brand-500">Pay with Stripe</a>
+              {p.payUrl ? (
+                <a href={p.payUrl} target="_blank" rel="noopener" className="inline-flex w-full items-center justify-center rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-brand-500">Pay with Stripe</a>
               ) : (
                 <p className="rounded-lg border border-dashed border-zinc-700 px-4 py-2.5 text-center text-sm text-zinc-500">Online booking opens soon</p>
               )}
@@ -36,7 +36,7 @@ export default function SponsorPage() {
       <div className="mt-10 rounded-xl border border-zinc-800 p-6 text-sm text-zinc-400">
         <h2 className="font-semibold text-white">How it works</h2>
         <ol className="mt-3 list-decimal space-y-1.5 pl-5">
-          <li>Pay for a slot{SPONSOR_URL ? " with the Stripe button above" : ""} and include your product URL and preferred week.</li>
+          <li>Pay for a slot{hasAnySponsorPay ? " with the Stripe button above" : ""} and include your product URL and preferred week.</li>
           <li>We review it for relevance (MCP server, agent tool, or infrastructure agent builders actually use).</li>
           <li>Your placement goes live on the next Monday, labeled “Sponsored”. Not a fit? Full refund.</li>
         </ol>
