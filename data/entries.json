@@ -1,5 +1,155 @@
 [
   {
+    "slug": "cognee",
+    "name": "Cognee",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "Open-source AI memory platform that turns docs, tickets and past sessions into a queryable knowledge graph agents can recall across Claude Code, Cursor and any MCP client.",
+    "url": "https://www.cognee.ai",
+    "repoUrl": "https://github.com/topoteretes/cognee",
+    "githubStars": 32555,
+    "tags": [
+      "memory",
+      "knowledge-graph",
+      "rag",
+      "open-source"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "codebase-memory-mcp",
+    "name": "Codebase Memory MCP",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "High-performance code intelligence MCP that indexes a repo into a persistent knowledge graph for sub-ms queries across 160+ languages, as a single static binary.",
+    "url": "https://deusdata.github.io/codebase-memory-mcp/",
+    "repoUrl": "https://github.com/DeusData/codebase-memory-mcp",
+    "githubStars": 46959,
+    "tags": [
+      "memory",
+      "code-intelligence",
+      "knowledge-graph",
+      "indexing"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "perplexity-mcp",
+    "name": "Perplexity MCP Server",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Official Perplexity MCP for real-time web search, research and reasoning via a hosted remote endpoint or local stdio server in Claude Code, Cursor and VS Code.",
+    "url": "https://docs.perplexity.ai/guides/mcp-server",
+    "repoUrl": "https://github.com/perplexityai/modelcontextprotocol",
+    "githubStars": 2580,
+    "tags": [
+      "search",
+      "research",
+      "official",
+      "remote-mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "duckduckgo-mcp",
+    "name": "DuckDuckGo MCP Server",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Keyless MCP server for DuckDuckGo web search plus page fetching and parsing, useful when you want search without an API key.",
+    "url": "https://github.com/nickclyde/duckduckgo-mcp-server",
+    "repoUrl": "https://github.com/nickclyde/duckduckgo-mcp-server",
+    "githubStars": 1546,
+    "tags": [
+      "search",
+      "duckduckgo",
+      "fetch",
+      "keyless"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "obsidian-mcp",
+    "name": "Obsidian MCP Server",
+    "type": "mcp-server",
+    "category": "productivity",
+    "description": "MCP server that reads and edits an Obsidian vault through the Local REST API community plugin, so agents can search and update notes in place.",
+    "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+    "repoUrl": "https://github.com/MarkusPfundstein/mcp-obsidian",
+    "githubStars": 4482,
+    "tags": [
+      "obsidian",
+      "notes",
+      "knowledge-base",
+      "vault"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "microsoft-learn-mcp",
+    "name": "Microsoft Learn MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Official Microsoft Learn MCP and CLI that feeds agents real-time Microsoft docs and code samples instead of stale training data.",
+    "url": "https://learn.microsoft.com",
+    "repoUrl": "https://github.com/MicrosoftDocs/mcp",
+    "githubStars": 1949,
+    "tags": [
+      "docs",
+      "microsoft",
+      "official",
+      "search"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
     "slug": "swytchcode",
     "name": "Swytchcode",
     "type": "mcp-server",

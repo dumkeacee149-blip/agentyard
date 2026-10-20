@@ -38,9 +38,10 @@ export default function Home() {
           <p className="mt-5 max-w-2xl text-lg text-zinc-400">
             MCP servers, coding agents and agent tooling for <span className="text-zinc-200">Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, Hermes</span> and every other agent you run. Hand-checked links, a weekly digest of what shipped.
           </p>
-          <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-start">
+          <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-start md:flex-wrap">
             <NewsletterForm />
             <Link href="#directory" className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-zinc-300 hover:border-zinc-500 hover:text-white md:self-start">Browse the directory ↓</Link>
+            <Link href="/submit" className="rounded-lg border border-brand-500/40 bg-brand-500/10 px-4 py-2 text-sm text-brand-300 hover:border-brand-400 hover:text-brand-200 md:self-start">Submit a tool →</Link>
           </div>
         </div>
       </section>
