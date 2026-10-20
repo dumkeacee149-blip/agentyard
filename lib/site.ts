@@ -10,10 +10,10 @@ export const SITE = {
 function resolveSiteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL;
   if (explicit) return explicit.replace(/\/$/, "");
-  const prod = process.env.VERCEL_PROJECT_PRODUCTION_URL;
-  if (prod) return `https://${prod}`;
-  const vercel = process.env.VERCEL_URL;
-  if (vercel) return `https://${vercel}`;
+  // Production canonical is the custom domain — never fall back to *.vercel.app.
+  if (process.env.VERCEL || process.env.NODE_ENV === "production") {
+    return "https://agentyard.fun";
+  }
   return "http://localhost:3000";
 }
 

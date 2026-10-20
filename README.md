@@ -38,7 +38,7 @@ scripts/build_seed.py       One-off script that produced the v1 seed (provenance
 
 | Var | Effect |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical URL (e.g. `https://agentyard.dev`). Defaults to the Vercel production URL. |
+| `NEXT_PUBLIC_SITE_URL` | Canonical URL (e.g. `https://agentyard.fun`). Defaults to `https://agentyard.fun` on Vercel/production, else localhost. |
 | `NEXT_PUBLIC_SPONSOR_URL` | Stripe Payment Link. The "Pay with Stripe" buttons are hidden when unset. |
 | `RESEND_API_KEY` + `RESEND_AUDIENCE_ID` | Turns the newsletter form on (adds contacts to a Resend audience). Without both, the form says "coming soon" and stores nothing. |
 | `NEXT_PUBLIC_SUBMIT_URL` | Link for the "Open a GitHub issue" button on /submit (e.g. `https://github.com/<you>/agentyard/issues/new`). |
@@ -98,7 +98,7 @@ Listed projects and trademarks belong to their owners. Descriptions are original
 
 ## Deployment (v1)
 
-- Vercel project `agentyard` (team scope `caicais-projects-199d3cfa`), production URL https://agentyard-kappa.vercel.app
-- v1 was deployed via the Vercel API (file upload + create deployment), not Git. Once a GitHub repo exists, connect it in Vercel → Project → Settings → Git so every merged PR auto-deploys.
+- Vercel project `agentyard` (team scope `caicais-projects-199d3cfa`), production URL https://agentyard.fun (legacy `*.vercel.app` alias may still resolve).
+- Connected to GitHub `dumkeacee149-blip/agentyard`; pushes to `main` auto-deploy. Set `NEXT_PUBLIC_SITE_URL=https://agentyard.fun` in Vercel Production env.
 
 <!-- git auto-deploy check 2026-10-17 -->

@@ -1,5 +1,130 @@
 [
   {
+    "slug": "swytchcode",
+    "name": "Swytchcode",
+    "type": "mcp-server",
+    "category": "mcp-tooling",
+    "description": "MCP and CLI execution layer that lets agents call many production APIs with schema validation, auth, retries, idempotency and tooling.json policy controls.",
+    "url": "https://www.swytchcode.com/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "apis",
+      "execution",
+      "policy",
+      "cli"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "vault-cortex",
+    "name": "Vault Cortex",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "Standalone MCP server for Obsidian vaults with hybrid search, structured memory, tasks, files and OAuth 2.1 for local or remote access.",
+    "url": "https://github.com/aliasunder/vault-cortex",
+    "repoUrl": "https://github.com/aliasunder/vault-cortex",
+    "githubStars": 30,
+    "tags": [
+      "obsidian",
+      "memory",
+      "search",
+      "oauth"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "exomem",
+    "name": "ExoMem",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "Self-hosted MCP server that makes Obsidian and markdown vaults searchable across text, PDFs, Office docs, images and audio.",
+    "url": "https://github.com/Artexis10/exomem",
+    "repoUrl": "https://github.com/Artexis10/exomem",
+    "githubStars": 9,
+    "tags": [
+      "obsidian",
+      "memory",
+      "search",
+      "self-hosted"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "agentsearch-mcp",
+    "name": "AgentSearch MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "MCP server for live web search, URL-to-markdown extract and headless JS render, with free search and per-call USDC payments via x402.",
+    "url": "https://agentsearchhq.com/",
+    "repoUrl": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
+    "githubStars": 0,
+    "tags": [
+      "search",
+      "extract",
+      "render",
+      "x402"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
+    "slug": "x64dbg-mcp",
+    "name": "x64dbg MCP",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Local MCP server that drives x64dbg for breakpoints, memory, disassembly, tracing, anti-debug checks and PE dumping from Claude, Cursor or Windsurf.",
+    "url": "https://github.com/bromoket/x64dbg_mcp",
+    "repoUrl": "https://github.com/bromoket/x64dbg_mcp",
+    "githubStars": 133,
+    "tags": [
+      "debugging",
+      "x64dbg",
+      "reverse-engineering",
+      "local"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-20"
+  },
+  {
     "slug": "mcp-filesystem",
     "name": "Filesystem MCP Server",
     "type": "mcp-server",
