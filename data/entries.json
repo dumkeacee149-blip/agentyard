@@ -1,5 +1,78 @@
 [
   {
+    "slug": "concord-mcp",
+    "name": "Concord MCP",
+    "type": "mcp-server",
+    "category": "mcp-tooling",
+    "description": "Open-source local-first MCP layer so Claude Code, Codex, Cursor, Gemini CLI and other coding agents can message each other, claim overlapping work, share decisions and hand off tasks with review evidence.",
+    "url": "https://getconcord.ai",
+    "repoUrl": "https://github.com/Get-Concord-AI/concord-mcp",
+    "githubStars": 571,
+    "tags": [
+      "multi-agent",
+      "messaging",
+      "coordination",
+      "open-source",
+      "local-first"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-10-21"
+  },
+  {
+    "slug": "claude-context",
+    "name": "Claude Context",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Semantic codebase search MCP for Claude Code and other coding agents — indexes your repo in a vector DB and pulls only relevant context instead of stuffing whole directories into the prompt.",
+    "url": "https://github.com/zilliztech/claude-context",
+    "repoUrl": "https://github.com/zilliztech/claude-context",
+    "githubStars": 12632,
+    "tags": [
+      "code-search",
+      "semantic-search",
+      "claude-code",
+      "open-source",
+      "milvus"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-10-21"
+  },
+  {
+    "slug": "stealth-browser-mcp",
+    "name": "Stealth Browser MCP",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "Stealth browser automation MCP over Chrome DevTools Protocol: navigation, network hooks, DOM extraction and pixel-accurate UI cloning for AI agents in Cursor and other MCP clients.",
+    "url": "https://github.com/vibheksoni/stealth-browser-mcp",
+    "repoUrl": "https://github.com/vibheksoni/stealth-browser-mcp",
+    "githubStars": 3167,
+    "tags": [
+      "browser",
+      "stealth",
+      "cdp",
+      "automation",
+      "open-source"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-21"
+  },
+  {
     "slug": "cognee",
     "name": "Cognee",
     "type": "mcp-server",
