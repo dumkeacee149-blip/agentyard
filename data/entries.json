@@ -1,5 +1,102 @@
 [
   {
+    "slug": "ownmem",
+    "name": "OwnMem",
+    "type": "agent-tool",
+    "category": "agent-infra",
+    "description": "Git-native project memory for coding agents: stores curated Markdown in .ownmem/, ranks it with local BM25F, and hooks into Claude Code, Codex, Cursor and Gemini CLI without cloud calls.",
+    "url": "https://github.com/grpcer/ownmem",
+    "repoUrl": "https://github.com/grpcer/ownmem",
+    "githubStars": 431,
+    "tags": [
+      "memory",
+      "git-native",
+      "local-first",
+      "open-source",
+      "hooks"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-10-22"
+  },
+  {
+    "slug": "rea",
+    "name": "REA",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Reverse Engineer Anything MCP and CLI: agents inspect binaries, Electron apps, .NET assemblies and sites locally, returning evidence-backed findings via Hopper, Ghidra or IDA when needed.",
+    "url": "https://rea.tools",
+    "repoUrl": "https://github.com/morluto/rea",
+    "githubStars": 357893,
+    "tags": [
+      "reverse-engineering",
+      "binaries",
+      "mcp",
+      "open-source",
+      "security"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-10-22"
+  },
+  {
+    "slug": "agent-reach",
+    "name": "Agent Reach",
+    "type": "agent-tool",
+    "category": "search",
+    "description": "CLI that lets coding agents read and search X, Reddit, YouTube, GitHub, Bilibili and more from a spare account, without paid platform API keys.",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "repoUrl": "https://github.com/Panniantong/Agent-Reach",
+    "githubStars": 100658,
+    "tags": [
+      "web-data",
+      "scraping",
+      "cli",
+      "open-source",
+      "social"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-22"
+  },
+  {
+    "slug": "beacon",
+    "name": "Beacon",
+    "type": "agent-tool",
+    "category": "agent-infra",
+    "description": "Cross-harness memory and session telemetry for AI coding agents: captures Claude Code, Cursor, Codex and OpenCode runs locally, then turns reviewed workflows into reusable knowledge.",
+    "url": "https://beacon.sh",
+    "repoUrl": "https://github.com/Asymptote-Labs/agent-beacon",
+    "githubStars": 2429,
+    "tags": [
+      "memory",
+      "telemetry",
+      "cross-harness",
+      "local-first",
+      "open-source"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "opencode",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-10-22"
+  },
+  {
     "slug": "concord-mcp",
     "name": "Concord MCP",
     "type": "mcp-server",
