@@ -1,5 +1,81 @@
 [
   {
+    "slug": "traefik-mcp-server",
+    "name": "Traefik MCP Server",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Read-only Traefik Labs MCP that joins live gateway config with Datadog, Grafana or Dash0 telemetry so agents can validate routes, explain traffic and propose schema-checked fixes.",
+    "url": "https://traefik.io/solutions/traefik-mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "gateway",
+      "traefik",
+      "read-only",
+      "telemetry",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-23"
+  },
+  {
+    "slug": "arcweave-mcp",
+    "name": "Arcweave MCP",
+    "type": "mcp-server",
+    "category": "mcp-tooling",
+    "description": "Hosted MCP for Arcweave game-narrative projects: summarize boards, inspect branching, create elements and export for engines from Claude Code, Cursor, Codex, Gemini CLI and other clients.",
+    "url": "https://docs.arcweave.com/integrations/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "narrative",
+      "game-design",
+      "hosted",
+      "remote",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-23"
+  },
+  {
+    "slug": "strayspark-unity-mcp",
+    "name": "StraySpark Unity MCP",
+    "type": "mcp-server",
+    "category": "coding-agents",
+    "description": "Windows Unity 6.5 MCP that returns a verification receipt for every scene, object and prefab edit, with one Undo step per call and Connect buttons for Claude Code, Cursor, VS Code and Codex.",
+    "url": "https://www.strayspark.studio/products/unity-mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "unity",
+      "verified-editing",
+      "receipts",
+      "game-dev",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-10-23"
+  },
+  {
     "slug": "ownmem",
     "name": "OwnMem",
     "type": "agent-tool",
