@@ -3008,5 +3008,102 @@
       "windsurf"
     ],
     "addedAt": "2026-10-16"
+  },
+  {
+    "slug": "jevmem",
+    "name": "jevmem",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "Saves decisions, rules and failed approaches from Claude Code and Cursor chats into JEVMEM.md, recalls them next session, and guards tool calls against those rules over MCP.",
+    "url": "https://avinash-jetwani.github.io/jevmem/",
+    "repoUrl": "https://github.com/Avinash-jetwani/jevmem",
+    "githubStars": 134,
+    "tags": [
+      "memory",
+      "claude-code",
+      "cursor",
+      "rules",
+      "mcp-registry"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-26"
+  },
+  {
+    "slug": "llm-cli-gateway",
+    "name": "llm-cli-gateway",
+    "type": "mcp-server",
+    "category": "agent-infra",
+    "description": "Local MCP control plane that lets one client drive Claude Code, Codex, Gemini, Cursor Agent and other CLIs with sessions, retries, approval gates and durable async jobs.",
+    "url": "https://llm-cli-gateway.dev",
+    "repoUrl": "https://github.com/verivus-oss/llm-cli-gateway",
+    "githubStars": 16,
+    "tags": [
+      "gateway",
+      "multi-agent",
+      "cli",
+      "approvals",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-10-26"
+  },
+  {
+    "slug": "pitroom",
+    "name": "Pitroom",
+    "type": "agent-tool",
+    "category": "coding-agents",
+    "description": "Delegates research, fixes, tests and reviews from your main coding agent to cheaper worker CLIs (OpenCode, Codex, Claude Code, Gemini CLI) with verified diffs and cost receipts.",
+    "url": "https://github.com/ATASTECH/pitroom",
+    "repoUrl": "https://github.com/ATASTECH/pitroom",
+    "githubStars": 28,
+    "tags": [
+      "delegation",
+      "workers",
+      "cost",
+      "cli"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "gemini-cli",
+      "opencode",
+      "cursor"
+    ],
+    "addedAt": "2026-10-26"
+  },
+  {
+    "slug": "mnemoverse",
+    "name": "Mnemoverse",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "Hosted MCP memory that re-ranks recalls from feedback, supports shared multi-agent rooms, and works across Claude Code, Cursor, VS Code and ChatGPT with one key or OAuth.",
+    "url": "https://mnemoverse.com/docs/api/mcp-server",
+    "repoUrl": "https://github.com/mnemoverse/mcp-memory-server",
+    "githubStars": 27,
+    "tags": [
+      "memory",
+      "hosted",
+      "multi-agent",
+      "oauth",
+      "mcp-registry"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-10-26"
   }
 ]
