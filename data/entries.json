@@ -1,5 +1,99 @@
 [
   {
+    "slug": "framer-mcp",
+    "name": "Framer MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Hosted Framer MCP at mcp.framer.com so Claude, Codex, Cursor and ChatGPT can inspect projects, edit the canvas and CMS, then leave changes unpublished until you review.",
+    "url": "https://www.framer.com/developers/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "framer",
+      "hosted",
+      "remote",
+      "design",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-27"
+  },
+  {
+    "slug": "cursor-agent-sdk",
+    "name": "Cursor Agent SDK",
+    "type": "agent-tool",
+    "category": "agent-frameworks",
+    "description": "Cursor's code-first SDK for defining, testing and deploying agents like Bugbot on Cursor infrastructure, with TypeScript and Python packages plus templates.",
+    "url": "https://cursor.com/blog/agent-sdk",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "sdk",
+      "cursor",
+      "deploy",
+      "typescript",
+      "python"
+    ],
+    "worksWith": [
+      "cursor"
+    ],
+    "addedAt": "2026-10-27"
+  },
+  {
+    "slug": "penpal",
+    "name": "Penpal",
+    "type": "mcp-server",
+    "category": "memory",
+    "description": "macOS-local MCP memory that records windows, clipboard and typed text for Claude Code, Codex and Cursor, with per-agent grants, redaction and cited evidence links.",
+    "url": "https://github.com/Longfellow1/penpal",
+    "repoUrl": "https://github.com/Longfellow1/penpal",
+    "githubStars": 4,
+    "tags": [
+      "memory",
+      "macos",
+      "local",
+      "privacy",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-27"
+  },
+  {
+    "slug": "pointer",
+    "name": "Pointer",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "Local MCP plus Chrome extension that drives your real Chrome tabs for Claude Code, Cursor, Codex and OpenCode, with a visible cursor and one-key stop.",
+    "url": "https://github.com/longvo2k/pointer",
+    "repoUrl": "https://github.com/longvo2k/pointer",
+    "githubStars": 2,
+    "tags": [
+      "browser",
+      "chrome",
+      "extension",
+      "local",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "opencode"
+    ],
+    "addedAt": "2026-10-27"
+  },
+  {
     "slug": "traefik-mcp-server",
     "name": "Traefik MCP Server",
     "type": "mcp-server",
