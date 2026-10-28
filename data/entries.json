@@ -1,5 +1,79 @@
 [
   {
+    "slug": "coding-tools-mcp",
+    "name": "Coding Tools MCP",
+    "type": "mcp-server",
+    "category": "mcp-tooling",
+    "description": "Model-neutral MCP coding runtime with sandboxed file/patch/shell/git tools for Claude Code, Codex, Cursor, Gemini CLI and VS Code, confined to one workspace.",
+    "url": "https://github.com/xyTom/coding-tools-mcp",
+    "repoUrl": "https://github.com/xyTom/coding-tools-mcp",
+    "githubStars": 1216,
+    "tags": [
+      "coding",
+      "sandbox",
+      "filesystem",
+      "git",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "slug": "kagi-mcp",
+    "name": "Kagi MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Official Kagi hosted MCP at mcp.kagi.com for web/news/video search and page extraction in Claude Code, Cursor and Codex (API key required).",
+    "url": "https://kagi.com/api/docs/openapi/section/mcp",
+    "repoUrl": "https://github.com/kagisearch/kagimcp",
+    "githubStars": 549,
+    "tags": [
+      "kagi",
+      "search",
+      "hosted",
+      "official",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "slug": "next-devtools-mcp",
+    "name": "Next.js DevTools MCP",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Official Vercel MCP that connects Claude, Cursor and Codex to a running Next.js 16+ dev server for live errors, routes, logs and version-matched docs.",
+    "url": "https://github.com/vercel/next-devtools-mcp",
+    "repoUrl": "https://github.com/vercel/next-devtools-mcp",
+    "githubStars": 833,
+    "tags": [
+      "nextjs",
+      "vercel",
+      "devtools",
+      "official",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
     "slug": "framer-mcp",
     "name": "Framer MCP",
     "type": "mcp-server",
