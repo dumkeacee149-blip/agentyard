@@ -1,5 +1,52 @@
 [
   {
+    "slug": "suno-mcp",
+    "name": "Suno MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Official Suno MCP (beta) for creating songs, remixes, covers and full tracks from voice memos inside Claude, ChatGPT and Claude Code; early-access signup, uses your Suno credits.",
+    "url": "https://suno.com/release-notes/suno-mcp-beta",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "music",
+      "audio",
+      "official",
+      "hosted",
+      "beta"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code"
+    ],
+    "addedAt": "2026-10-29"
+  },
+  {
+    "slug": "mdn-mcp",
+    "name": "MDN MCP",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Mozilla's official hosted MCP at mcp.mdn.mozilla.net that gives coding agents up-to-date MDN docs and browser-compatibility (Baseline) data; experimental.",
+    "url": "https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "mdn",
+      "web-docs",
+      "browser-compat",
+      "official",
+      "hosted"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-10-29"
+  },
+  {
     "slug": "coding-tools-mcp",
     "name": "Coding Tools MCP",
     "type": "mcp-server",
