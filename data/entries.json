@@ -1,5 +1,108 @@
 [
   {
+    "slug": "mollie-mcp",
+    "name": "Mollie MCP Server",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Mollie's official hosted MCP at mcp.mollie.com for payments, payment links, subscriptions, invoices, balances and settlements from Claude, ChatGPT or Cursor (OAuth; actions stay within your Mollie role).",
+    "url": "https://docs.mollie.com/docs/mollie-mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "payments",
+      "hosted",
+      "oauth",
+      "mollie"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "codex"
+    ],
+    "addedAt": "2026-10-30"
+  },
+  {
+    "slug": "runpod-mcp",
+    "name": "Runpod MCP Server",
+    "type": "mcp-server",
+    "category": "cloud",
+    "description": "Official Runpod MCP (@runpod/mcp-server) so Claude Code, Cursor, Codex and Gemini CLI can manage GPU Pods, Serverless endpoints, templates and volumes; docs MCP at docs.runpod.io/mcp.",
+    "url": "https://www.runpod.io/blog/runpod-just-got-native-in-your-ai-ide",
+    "repoUrl": "https://github.com/runpod/runpod-mcp",
+    "githubStars": 86,
+    "tags": [
+      "official",
+      "gpu",
+      "serverless",
+      "cloud",
+      "runpod"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-30"
+  },
+  {
+    "slug": "launchshots-mcp",
+    "name": "LaunchShots MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Hosted LaunchShots MCP that lets Claude Code, Cursor, Codex and Gemini CLI capture app screens and generate editable App Store / Google Play screenshot sets from the codebase.",
+    "url": "https://www.launchshots.com/blog/introducing-the-launchshots-mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "app-store",
+      "screenshots",
+      "design"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode",
+      "windsurf"
+    ],
+    "addedAt": "2026-10-30"
+  },
+  {
+    "slug": "flux-mcp",
+    "name": "Flux MCP Server",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Flux's official hosted MCP at app.flux.ai/mcp so Claude Code, Cursor and Codex can read schematics, nets and BOMs and hand hardware design jobs to the Flux agent.",
+    "url": "https://www.flux.ai/p/blog/flux-mcp-in-your-ai-tools",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "hardware",
+      "pcb",
+      "flux"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-10-30"
+  },
+  {
     "slug": "suno-mcp",
     "name": "Suno MCP",
     "type": "mcp-server",
