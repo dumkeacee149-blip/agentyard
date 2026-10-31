@@ -3423,5 +3423,28 @@
       "vscode"
     ],
     "addedAt": "2026-10-26"
+  },
+  {
+    "slug": "agent-qa",
+    "name": "agent-qa",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "MCP server for natural-language QA of web, Android and iOS apps. Persistent memidex memory and validated lessons help later runs reuse what worked; model access is configured separately.",
+    "url": "https://vostride.com",
+    "repoUrl": "https://github.com/vostride/agent-qa",
+    "githubStars": 912,
+    "tags": [
+      "testing",
+      "web",
+      "mobile",
+      "memory",
+      "self-improvement"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-10-25"
   }
 ]
