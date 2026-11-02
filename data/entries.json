@@ -3591,5 +3591,24 @@
       "vscode"
     ],
     "addedAt": "2026-10-26"
+  },
+  {
+    "slug": "kilobat-cli",
+    "name": "Kilobat CLI",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Local macOS network diagnostics over MCP; the GPL-3.0-only CLI can inspect connection status, DNS and Wi-Fi. Some capabilities need permissions or the separately proprietary desktop app.",
+    "url": "https://github.com/seifip/kilobat-cli",
+    "repoUrl": "https://github.com/seifip/kilobat-cli",
+    "githubStars": 1,
+    "tags": [
+      "network",
+      "macos",
+      "diagnostics"
+    ],
+    "worksWith": [
+      "any-mcp"
+    ],
+    "addedAt": "2026-11-02"
   }
 ]
