@@ -37,7 +37,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{list.map((e) => <EntryCard key={e.slug} entry={e} />)}</div>
       <div className="mt-12 flex flex-wrap gap-2">
         {CATEGORIES.filter((x) => x.slug !== c.slug).map((x) => (
-          <Link key={x.slug} href={`/category/${x.slug}`} className="rounded-full border border-zinc-800 px-3 py-1 text-xs text-zinc-400 hover:border-zinc-600 hover:text-white">{x.name}</Link>
+          <Link key={x.slug} href={`/category/${x.slug}`} className="rounded-full border border-surface-3 px-3 py-1 text-xs text-zinc-400 hover:border-surface-4 hover:text-white">{x.name}</Link>
         ))}
       </div>
     </div>

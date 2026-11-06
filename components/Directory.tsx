@@ -35,7 +35,7 @@ export function Directory({ entries, categories }: { entries: Entry[]; categorie
   }, [entries, q, type, cat, sort]);
 
   const chip = (active: boolean) =>
-    `rounded-full border px-3 py-1 text-xs transition ${active ? "border-brand-500 bg-brand-500/15 text-white" : "border-zinc-800 text-zinc-400 hover:border-zinc-600 hover:text-zinc-200"}`;
+    `rounded-full border px-3 py-1 text-xs transition ${active ? "border-brand-500 bg-brand-500/15 text-white" : "border-surface-3 text-zinc-400 hover:border-surface-4 hover:text-zinc-200"}`;
 
   return (
     <div>
@@ -47,7 +47,7 @@ export function Directory({ entries, categories }: { entries: Entry[]; categorie
             onChange={(e) => setQ(e.target.value)}
             placeholder={`Search ${entries.length} tools: "postgres", "browser", "figma", "claude-code"…`}
             aria-label="Search the directory"
-            className="w-full rounded-xl border border-zinc-800 bg-zinc-900/60 py-3 pl-10 pr-4 text-sm text-white placeholder:text-zinc-500 focus:border-brand-500 focus:outline-none"
+            className="w-full rounded-xl border border-surface-3 bg-surface-1 py-3 pl-10 pr-4 text-sm text-white placeholder:text-zinc-500 focus:border-brand-500 focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
           />
         </div>
         <div className="flex gap-2">
@@ -60,10 +60,10 @@ export function Directory({ entries, categories }: { entries: Entry[]; categorie
             value={sort}
             onChange={(e) => setSort(e.target.value as "stars" | "name")}
             aria-label="Sort"
-            className="rounded-full border border-zinc-800 bg-zinc-950 px-3 py-1 text-xs text-zinc-400"
+            className="rounded-full border border-surface-3 bg-surface-0 px-3 py-1 text-xs text-zinc-400"
           >
             <option value="stars">Most stars</option>
-            <option value="name">A–Z</option>
+            <option value="name">A to Z</option>
           </select>
         </div>
       </div>

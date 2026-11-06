@@ -18,22 +18,22 @@ export default function SponsorPage() {
       </p>
       <div className="mt-10 grid gap-6 md:grid-cols-2">
         {PRICING.map((p) => (
-          <div key={p.id} className="flex flex-col rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
+          <div key={p.id} className="flex flex-col rounded-2xl border border-surface-3 bg-surface-1 p-6">
             <h2 className="text-lg font-semibold text-white">{p.name}</h2>
             <p className="mt-2"><span className="text-4xl font-semibold text-white">{p.price}</span><span className="text-zinc-500"> {p.per}</span></p>
             <p className="mt-3 text-sm text-zinc-400">{p.blurb}</p>
-            <ul className="mt-4 space-y-2 text-sm text-zinc-300">{p.bullets.map((b) => <li key={b} className="flex gap-2"><span className="text-lime-400">✓</span>{b}</li>)}</ul>
+            <ul className="mt-4 space-y-2 text-sm text-zinc-300">{p.bullets.map((b) => <li key={b} className="flex gap-2"><span className="text-brand-400">✓</span>{b}</li>)}</ul>
             <div className="mt-auto pt-6">
               {p.payUrl ? (
                 <a href={p.payUrl} target="_blank" rel="noopener" className="inline-flex w-full items-center justify-center rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-brand-500">Pay with Stripe</a>
               ) : (
-                <p className="rounded-lg border border-dashed border-zinc-700 px-4 py-2.5 text-center text-sm text-zinc-500">Online booking opens soon</p>
+                <p className="rounded-lg border border-dashed border-surface-4 px-4 py-2.5 text-center text-sm text-zinc-500">Online booking opens soon</p>
               )}
             </div>
           </div>
         ))}
       </div>
-      <div className="mt-10 rounded-xl border border-zinc-800 p-6 text-sm text-zinc-400">
+      <div className="mt-10 rounded-xl border border-surface-3 p-6 text-sm text-zinc-400">
         <h2 className="font-semibold text-white">How it works</h2>
         <ol className="mt-3 list-decimal space-y-1.5 pl-5">
           <li>Pay for a slot{hasAnySponsorPay ? " with the Stripe button above" : ""} and include your product URL and preferred week.</li>

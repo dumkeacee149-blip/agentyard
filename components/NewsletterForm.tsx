@@ -11,13 +11,25 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
     e.preventDefault();
     setState("loading");
     try {
-      const res = await fetch("/api/subscribe", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email }) });
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
       const data = await res.json();
-      if (data.status === "coming_soon") { setState("soon"); setMsg(data.message); }
-      else if (res.ok) { setState("ok"); setMsg(data.message ?? "You're in. See you next week."); }
-      else { setState("error"); setMsg(data.message ?? "Something went wrong."); }
+      if (data.status === "coming_soon") {
+        setState("soon");
+        setMsg(data.message);
+      } else if (res.ok) {
+        setState("ok");
+        setMsg(data.message ?? "You are in. See you next week.");
+      } else {
+        setState("error");
+        setMsg(data.message ?? "Something went wrong. Check the address and try again.");
+      }
     } catch {
-      setState("error"); setMsg("Network error, please try again.");
+      setState("error");
+      setMsg("Network error. Please try again.");
     }
   }
 
@@ -31,14 +43,28 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="you@company.com"
           aria-label="Email address"
-          className="min-w-0 flex-1 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-white placeholder:text-zinc-500 focus:border-brand-500 focus:outline-none"
+          className="body-6 min-w-0 flex-1 rounded-lg border border-surface-4 bg-surface-0 px-3 py-2 text-white placeholder:text-zinc-500 transition duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] focus:border-brand-500 focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
         />
-        <button disabled={state === "loading"} className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-500 disabled:opacity-60">
+        <button
+          disabled={state === "loading"}
+          type="submit"
+          className="button-sm rounded-lg bg-surface-3 px-3 py-2 text-white transition duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] hover:bg-surface-4 active:scale-[0.98] disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
+        >
           {state === "loading" ? "…" : "Subscribe"}
         </button>
       </div>
-      {msg && <p className={`mt-2 text-xs ${state === "error" ? "text-red-400" : state === "soon" ? "text-amber-300" : "text-lime-300"}`}>{msg}</p>}
-      {!msg && <p className="mt-2 text-xs text-zinc-500">One email a week. New MCP servers, agent releases, no fluff.</p>}
+      {msg && (
+        <p
+          className={`caption-2 mt-2 ${
+            state === "error" ? "text-red-400" : state === "soon" ? "text-zinc-400" : "text-brand-400"
+          }`}
+        >
+          {msg}
+        </p>
+      )}
+      {!msg && (
+        <p className="caption-5 mt-2 text-zinc-500">One email a week. New MCP servers, agent releases, no fluff.</p>
+      )}
     </form>
   );
 }

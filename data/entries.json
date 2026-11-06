@@ -1,5 +1,268 @@
 [
   {
+    "slug": "thunderclient-mcp",
+    "name": "Thunder Client MCP",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Official Thunder Client MCP (v2) so Claude Code, Codex and Cursor can create, edit, test and run API collections via 12 tools, with one-command npx setup and no API keys.",
+    "url": "https://docs.thunderclient.com/mcp",
+    "repoUrl": "https://github.com/thunderclient/thunderclient-mcp",
+    "githubStars": 11,
+    "tags": [
+      "api-testing",
+      "http",
+      "collections",
+      "official",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "pixelfx",
+    "name": "pixelfx",
+    "type": "agent-tool",
+    "category": "design",
+    "description": "244 MIT pixel-art effect snippets plus a Claude Code skill that drafts, renders and refines new effects as small pieces of code for games and UI.",
+    "url": "https://patch-gg.github.io/pixelfx/",
+    "repoUrl": "https://github.com/patch-gg/pixelfx",
+    "githubStars": 3515,
+    "tags": [
+      "skill",
+      "pixel-art",
+      "effects",
+      "claude-code",
+      "design"
+    ],
+    "worksWith": [
+      "claude-code"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "notebooklm-mcp",
+    "name": "NotebookLM MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Lets Claude Code, Codex and Cursor query your NotebookLM notebooks for citation-backed answers, with persistent auth, library management and cross-client sharing.",
+    "url": "https://github.com/PleasePrompto/notebooklm-mcp",
+    "repoUrl": "https://github.com/PleasePrompto/notebooklm-mcp",
+    "githubStars": 3441,
+    "tags": [
+      "notebooklm",
+      "rag",
+      "citations",
+      "gemini",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "agent-intern",
+    "name": "agent-intern",
+    "type": "mcp-server",
+    "category": "agent-infra",
+    "description": "MCP bridge that lets Claude Code delegate to Gemini, Codex, Copilot, Cursor and opencode as headless sub-agents for answers, images, repo work and parallel swarms.",
+    "url": "https://github.com/SinanTufekci/agent-intern",
+    "repoUrl": "https://github.com/SinanTufekci/agent-intern",
+    "githubStars": 30,
+    "tags": [
+      "multi-agent",
+      "delegation",
+      "swarm",
+      "cli",
+      "mcp"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "opencode"
+    ],
+    "addedAt": "2026-11-03"
+  },
+  {
+    "slug": "floorplan",
+    "name": "Floorplan",
+    "type": "agent-tool",
+    "category": "dev-tools",
+    "description": "Claude/Codex skill that reads a codebase and draws an interactive plain-English map of parts, files, and web requests—with ask-the-map, health checks, and recent-work highlights.",
+    "url": "https://haydenschmitty.github.io/floorplan-demo/",
+    "repoUrl": "https://github.com/haydenschmitty/floorplan",
+    "githubStars": 1791,
+    "tags": [
+      "skill",
+      "architecture",
+      "visualization",
+      "claude-code",
+      "codex"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "answer-me-with-html",
+    "name": "Answer Me with HTML",
+    "type": "agent-tool",
+    "category": "workflows",
+    "description": "Agent skill that answers hard questions as a single offline HTML page (diagrams, tables, timelines); the model drafts Markdown and a bundled CLI builds the page ~8× fewer tokens.",
+    "url": "https://answer-me-with-html.com/",
+    "repoUrl": "https://github.com/QingYunA/answer-me-with-html",
+    "githubStars": 5024,
+    "tags": [
+      "skill",
+      "html",
+      "explainer",
+      "claude-code",
+      "open-source"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "unslop",
+    "name": "Unslop",
+    "type": "agent-tool",
+    "category": "workflows",
+    "description": "Claude Code/Codex skill that audits vibecoded UI (purple gradients, glows, shouty copy) then redesigns pass by pass from your product; works on local screens or a live URL.",
+    "url": "https://github.com/heydamir/unslop",
+    "repoUrl": "https://github.com/heydamir/unslop",
+    "githubStars": 4881,
+    "tags": [
+      "skill",
+      "ui",
+      "design",
+      "claude-code",
+      "open-source"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "storeinspect-mcp",
+    "name": "StoreInspect MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Hosted StoreInspect MCP (mcp.storeinspect.com) so Claude Code, Cursor, Codex and ChatGPT can search 2M+ Shopify stores by apps, traffic and contacts via OAuth; reveals need explicit confirmation.",
+    "url": "https://storeinspect.com/docs/mcp/quickstart",
+    "repoUrl": "https://github.com/StoreInspect/storeinspect-mcp",
+    "githubStars": 0,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "shopify",
+      "ecommerce"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "deployhq-mcp",
+    "name": "DeployHQ MCP Server",
+    "type": "mcp-server",
+    "category": "cloud",
+    "description": "DeployHQ's hosted read-only MCP at mcp.deployhq.com: add one URL to Claude Code, Codex, Gemini CLI or Cursor, sign in, and ask what is deployed where and which deploys failed.",
+    "url": "https://www.deployhq.com/mcp",
+    "repoUrl": "https://github.com/deployhq/deployhq-mcp-server",
+    "githubStars": 13,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "deployments",
+      "devops"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "signoz-mcp",
+    "name": "SigNoz MCP Server",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Official SigNoz MCP so agents can query metrics, traces and logs in natural language and manage dashboards, alerts and views; Cloud hosted URL plus open-source server, with agent skills/plugin.",
+    "url": "https://signoz.io/docs/ai/signoz-mcp-server/",
+    "repoUrl": "https://github.com/SigNoz/signoz-mcp-server",
+    "githubStars": 130,
+    "tags": [
+      "official",
+      "hosted",
+      "observability",
+      "tracing",
+      "metrics"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
+    "slug": "temps",
+    "name": "Temps",
+    "type": "agent-tool",
+    "category": "agent-infra",
+    "description": "Open-source AI-native alternative to Vercel+Sentry+PostHog+Resend+E2B: self-hosted Rust binary with 440+ CLI ops and drop-in skills for Claude Code, Codex and OpenCode.",
+    "url": "https://temps.sh/docs",
+    "repoUrl": "https://github.com/gotempsh/temps",
+    "githubStars": 888,
+    "tags": [
+      "open-source",
+      "self-hosted",
+      "deployments",
+      "observability",
+      "skills"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex",
+      "opencode",
+      "cursor"
+    ],
+    "addedAt": "2026-11-02"
+  },
+  {
     "slug": "mollie-mcp",
     "name": "Mollie MCP Server",
     "type": "mcp-server",
@@ -3425,6 +3688,270 @@
     "addedAt": "2026-10-26"
   },
   {
+    "slug": "pachca-mcp",
+    "name": "Pachca MCP",
+    "type": "mcp-server",
+    "category": "productivity",
+    "description": "Official Pachca team-chat MCP server: Claude Code, Codex and Cursor can search chat history, summarize threads, create tasks and send messages with the connecting employee's permissions. Free on all plans.",
+    "url": "https://pachca.com/mcp",
+    "tags": [
+      "chat",
+      "team",
+      "tasks",
+      "official",
+      "remote"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "keytomic-seo-mcp",
+    "name": "Keytomic SEO MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Keytomic's SEO MCP server brings keyword research, content publishing, site audits and content-calendar management into Claude Code, Codex, Cursor, Gemini CLI and Windsurf.",
+    "url": "https://keytomic.com/mcp",
+    "tags": [
+      "seo",
+      "marketing",
+      "content",
+      "audits",
+      "official"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "windsurf"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "replica-skill",
+    "name": "replica",
+    "type": "agent-tool",
+    "category": "design",
+    "description": "MIT Agent Skill for Claude Code and other coding agents that rebuilds a UI from a site, screenshot or screen recording, then scores the clone on layout, style, pixels and motion until it passes.",
+    "url": "https://github.com/albertirgi/replica",
+    "repoUrl": "https://github.com/albertirgi/replica",
+    "githubStars": 40,
+    "tags": [
+      "skill",
+      "ui-clone",
+      "visual-diff",
+      "frontend"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "token-arcade",
+    "name": "token-arcade",
+    "type": "agent-tool",
+    "category": "observability",
+    "description": "Local MIT dashboard that tracks coding-agent quota, token usage and output speed across Claude Code, Codex, Grok and Antigravity.",
+    "url": "https://github.com/brezzashen/token-arcade",
+    "repoUrl": "https://github.com/brezzashen/token-arcade",
+    "githubStars": 19,
+    "tags": [
+      "usage",
+      "tokens",
+      "quota",
+      "dashboard",
+      "local"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-04"
+  },
+  {
+    "slug": "calibre-mcp",
+    "name": "Calibre MCP",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Official hosted Calibre MCP so Claude Code, Cursor and Codex can query your RUM, CrUX and Synthetic performance data in plain language and point at slow elements, scripts and deploys.",
+    "url": "https://calibreapp.com/docs/automation/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "performance",
+      "rum",
+      "web-vitals"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-05"
+  },
+  {
+    "slug": "positron-mcp",
+    "name": "Positron MCP",
+    "type": "mcp-server",
+    "category": "coding-agents",
+    "description": "Experimental MCP in Positron 2026.10 that lets Claude Code, Codex, Gemini and other agents see live data, plots and consoles and run code beside you in Posit's data-science IDE.",
+    "url": "https://opensource.posit.co/blog/2026-11-04_positron-mcp/",
+    "repoUrl": "https://github.com/posit-dev/positron",
+    "githubStars": 4333,
+    "tags": [
+      "official",
+      "ide",
+      "data-science",
+      "experimental",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "gemini-cli",
+      "opencode"
+    ],
+    "addedAt": "2026-11-05"
+  },
+  {
+    "slug": "device-mcp",
+    "name": "Device MCP",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "macOS MCP app that mirrors and drives real iPhones/iPads plus Android Studio emulators so Claude Code, Codex, Cursor and Gemini CLI can tap, type and test mobile UI.",
+    "url": "https://devicemcp.ai/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "mobile",
+      "ios",
+      "android",
+      "emulator",
+      "ui-testing"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-05"
+  },
+  {
+    "slug": "parallel-mcp",
+    "name": "Parallel MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Parallel MCP 2.0 hosted at mcp.parallel.ai: free keyless web search, extract and grounded decisions for Claude Code, Codex and Cursor, with optional signed-in deep research and org controls.",
+    "url": "https://parallel.ai/blog/parallel-mcp-2",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "web-search",
+      "research",
+      "keyless"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "dench-mcp",
+    "name": "Dench MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Hosted Dench MCP at mcp.dench.com so Claude Code, Codex, Cursor and Gemini CLI can check pipeline, update CRM records, search people and pull call context via OAuth.",
+    "url": "https://www.dench.com/blog/introducing-dench-mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "crm",
+      "gtm",
+      "sales"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "runway-dev-mcp",
+    "name": "Runway Dev MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Hosted Runway Dev MCP plus plugins for Claude Code, Codex and Cursor so agents read live account context and build generative media API integrations without storing API keys.",
+    "url": "https://dev.runway.com/agents",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "generative-media",
+      "plugin",
+      "api"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "cherry-blossom-mcp",
+    "name": "Cherry Blossom MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Hosted PCB-design MCP so Claude Code, Codex and Cursor can schematic, place, route, pour copper and run checks on Cherry Blossom boards via OAuth on every plan including Free.",
+    "url": "https://www.trycherryblossom.com/docs/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "pcb",
+      "hardware",
+      "schematic"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-06"
+  },
+  {
     "slug": "agent-qa",
     "name": "agent-qa",
     "type": "mcp-server",
@@ -3432,7 +3959,7 @@
     "description": "MCP server for natural-language QA of web, Android and iOS apps. Persistent memidex memory and validated lessons help later runs reuse what worked; model access is configured separately.",
     "url": "https://vostride.com",
     "repoUrl": "https://github.com/vostride/agent-qa",
-    "githubStars": 912,
+    "githubStars": 856,
     "tags": [
       "testing",
       "web",

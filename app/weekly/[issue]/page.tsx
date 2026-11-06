@@ -29,7 +29,7 @@ export default async function IssuePage({ params }: { params: Promise<{ issue: s
       <h1 className="mt-3 text-3xl font-semibold tracking-tight text-white md:text-4xl">{i.title}</h1>
       <p className="mt-2 text-sm text-zinc-500">Issue #{i.number} · <time dateTime={i.date}>{i.date}</time></p>
       <div className="prose-digest mt-6" dangerouslySetInnerHTML={{ __html: renderMarkdown(i.body) }} />
-      <div className="mt-12 rounded-xl border border-zinc-800 p-6">
+      <div className="mt-12 rounded-xl border border-surface-3 p-6">
         <h2 className="font-semibold text-white">Get next week’s issue</h2>
         <div className="mt-3"><NewsletterForm /></div>
       </div>
