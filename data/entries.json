@@ -3950,5 +3950,77 @@
       "cursor"
     ],
     "addedAt": "2026-11-06"
+  },
+  {
+    "slug": "selan-browser",
+    "name": "Selan Browser",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "Chrome extension with a hosted MCP so Claude Code, Codex and Cursor can open, read and click inside their own signed-in tab group, only on sites you allow, with no Selan account.",
+    "url": "https://selan.ai/browser",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "chrome",
+      "extension",
+      "hosted",
+      "browser"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-09"
+  },
+  {
+    "slug": "poki",
+    "name": "Poki",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "Local macOS MCP server that lets Claude Code, Codex and other MCP clients operate a real iPhone without a jailbreak or extra hardware, using your own model subscription.",
+    "url": "https://poki.bot",
+    "repoUrl": "https://github.com/JosssphZhou/poki",
+    "githubStars": 607,
+    "tags": [
+      "mobile",
+      "ios",
+      "macos",
+      "local",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-09"
+  },
+  {
+    "slug": "next-ai-draw-io",
+    "name": "Next AI Draw.io",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Web and desktop draw.io app plus an MCP server so Claude Code, Codex, Cursor and VS Code can create and edit diagrams on a live canvas you can also change by hand.",
+    "url": "https://next-ai-drawio.jiang.jp/en/mcp",
+    "repoUrl": "https://github.com/DayuanJiang/next-ai-draw-io",
+    "githubStars": 36795,
+    "tags": [
+      "diagrams",
+      "drawio",
+      "mcp",
+      "desktop",
+      "open-source"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-09"
   }
 ]
