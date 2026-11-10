@@ -4022,5 +4022,103 @@
       "vscode"
     ],
     "addedAt": "2026-11-09"
+  },
+  {
+    "slug": "aisle-mcp",
+    "name": "AISLE MCP Server",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "AISLE's read-only hosted MCP so Claude Code, Codex and Cursor can list security findings, inspect issue details and review AISLE-generated patches via OAuth or PAT (tenant MCP URL).",
+    "url": "https://aisle.com/blog/announcing-the-aisle-mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "security",
+      "vulnerabilities",
+      "oauth"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-10"
+  },
+  {
+    "slug": "pantheon-mcp",
+    "name": "Pantheon MCP Server",
+    "type": "mcp-server",
+    "category": "cloud",
+    "description": "Pantheon's remote MCP (mcp.pantheon.io) lets Claude Code, Codex and Cursor manage sites, environments, builds and deploys under your Pantheon identity; write actions need explicit approval (public beta).",
+    "url": "https://docs.pantheon.io/guides/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "hosting",
+      "oauth",
+      "beta"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-10"
+  },
+  {
+    "slug": "highlevel-mcp",
+    "name": "HighLevel MCP Server",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Official HighLevel / LeadConnector MCP with OAuth endpoints for Claude Code, Codex and Cursor, exposing 550+ CRM operations across contacts, pipelines and workflows via four discovery tools.",
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "crm",
+      "oauth",
+      "leadconnector"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-10"
+  },
+  {
+    "slug": "toolport",
+    "name": "Toolport",
+    "type": "agent-tool",
+    "category": "mcp-tooling",
+    "description": "Local-first desktop MCP gateway that sets up servers once for Claude Code, Codex, Cursor, Gemini CLI and 40+ agents, with OS keychain secrets and optional Pro sync.",
+    "url": "https://toolport.app/",
+    "repoUrl": "https://github.com/btsouth/toolport",
+    "githubStars": 238,
+    "tags": [
+      "open-source",
+      "desktop",
+      "gateway",
+      "keychain",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-10"
   }
 ]
