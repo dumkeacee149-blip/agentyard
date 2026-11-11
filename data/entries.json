@@ -4122,14 +4122,85 @@
     "addedAt": "2026-11-10"
   },
   {
+    "slug": "callgraph",
+    "name": "callgraph",
+    "type": "mcp-server",
+    "category": "coding-agents",
+    "description": "Free MIT-licensed CLI + MCP server that gives Cursor, Claude Code and other agents a file outline, caller lists and single method bodies on request, so they stop reading whole files.",
+    "url": "https://callgraph.eu/",
+    "repoUrl": "https://github.com/GeRiY/callgraph",
+    "githubStars": 0,
+    "tags": [
+      "open-source",
+      "code-navigation",
+      "tokens",
+      "cli",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-11"
+  },
+  {
+    "slug": "rainfrog-mcp",
+    "name": "Rainfrog MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Rainfrog's official hosted Streamable HTTP MCP (OAuth 2.1) so ChatGPT, Claude, Claude Code and Cursor can create ad creative campaigns in your Rainfrog studio, using your plan credits.",
+    "url": "https://www.rainfrog.ai/blog/rainfrog-mcp-is-live",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "marketing",
+      "creative"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor"
+    ],
+    "addedAt": "2026-11-11"
+  },
+  {
+    "slug": "domoai-mcp",
+    "name": "DomoAI MCP & CLI",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "DomoAI's official CLI and local stdio MCP server that lets Codex, Claude Code, Claude Desktop and Cursor generate and edit video, images and audio (12 creative tools) from your DomoAI account.",
+    "url": "https://www.domoai.app/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "video",
+      "image-generation",
+      "audio",
+      "cli"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-11"
+  },
+  {
     "slug": "agent-qa",
     "name": "agent-qa",
     "type": "mcp-server",
     "category": "browser",
-    "description": "MCP server for natural-language web, Android and iOS QA with persistent memidex memory, validated self-improvement and recorded steps/screenshots. Requires configured model and browser/device access.",
+    "description": "Web/mobile QA via MCP with persistent memidex memory, validated self-improvement and step/screenshots. Node24+, configured model/device. FSL-1.1-ALv2 competing-use limits; free permitted local software, model/runtime costs separate.",
     "url": "https://vostride.com",
     "repoUrl": "https://github.com/vostride/agent-qa",
-    "githubStars": 852,
+    "githubStars": 853,
     "tags": [
       "testing",
       "web",
