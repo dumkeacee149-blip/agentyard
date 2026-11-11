@@ -4191,5 +4191,28 @@
       "cursor"
     ],
     "addedAt": "2026-11-11"
+  },
+  {
+    "slug": "agent-qa",
+    "name": "agent-qa",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "Web/mobile QA via MCP with persistent memidex memory, validated self-improvement and step/screenshots. Node24+, configured model/device. FSL-1.1-ALv2 competing-use limits; free permitted local software, model/runtime costs separate.",
+    "url": "https://vostride.com",
+    "repoUrl": "https://github.com/vostride/agent-qa",
+    "githubStars": 853,
+    "tags": [
+      "testing",
+      "web",
+      "mobile",
+      "memory",
+      "self-improvement"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-10"
   }
 ]
