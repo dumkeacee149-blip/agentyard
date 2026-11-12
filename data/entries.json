@@ -4191,5 +4191,108 @@
       "cursor"
     ],
     "addedAt": "2026-11-11"
+  },
+  {
+    "slug": "product-hunt-mcp",
+    "name": "Product Hunt MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Product Hunt's official hosted Streamable HTTP MCP (OAuth, no API key) so Claude Code, Codex, Cursor and Gemini CLI can research launches, compare alternatives, check leaderboards, and draft or schedule a launch.",
+    "url": "https://www.producthunt.com/mcp/install",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "product-discovery",
+      "launches"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-12"
+  },
+  {
+    "slug": "graphify",
+    "name": "Graphify",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Graphify's official hosted MCP (OAuth) and open-source CLI that give Claude Code, Codex, Cursor and Gemini CLI a code knowledge graph of callers, callees, traces and impact, instead of re-reading whole files.",
+    "url": "https://graphify.com/mcp",
+    "repoUrl": "https://github.com/Graphify-Labs/graphify",
+    "githubStars": 146184,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "knowledge-graph",
+      "code-navigation",
+      "cli"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-12"
+  },
+  {
+    "slug": "alphagrowth-mcp",
+    "name": "AlphaGrowth MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "AlphaGrowth's official hosted MCP (no API key) with 27 read-only Web3 tools so Claude Code, Codex, Cursor and Gemini CLI can query TVL, funding rounds, yields, token unlocks and DAO treasuries.",
+    "url": "https://alphagrowth.io/mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "web3",
+      "crypto",
+      "read-only"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-12"
+  },
+  {
+    "slug": "sozai-search-mcp",
+    "name": "Sozai Search MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "MIT-licensed local MCP that lets Claude Code, Codex and Cursor search about 39,000 free 3D models, PBR materials and HDRIs by words or meaning, preview them, and download files from the original libraries at real-world size.",
+    "url": "https://github.com/kanaworksai-hue/sozai-search-mcp",
+    "repoUrl": "https://github.com/kanaworksai-hue/sozai-search-mcp",
+    "githubStars": 48,
+    "tags": [
+      "open-source",
+      "3d",
+      "assets",
+      "cli",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-12"
   }
 ]
