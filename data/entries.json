@@ -4294,5 +4294,98 @@
       "cursor"
     ],
     "addedAt": "2026-11-12"
+  },
+  {
+    "slug": "retool-mcp",
+    "name": "Retool MCP",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "Retool's official hosted MCP (OAuth at mcp.retool.com; also self-hosted on 4.86+) so Claude Code, Codex, Cursor and Gemini CLI can build and edit apps, import React apps, and manage org users, resources and permissions.",
+    "url": "https://docs.retool.com/org-users/guides/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "app-builder",
+      "internal-tools"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode"
+    ],
+    "addedAt": "2026-11-13"
+  },
+  {
+    "slug": "aws-emulator",
+    "name": "AWS Emulator",
+    "type": "agent-tool",
+    "category": "cloud",
+    "description": "Official local AWS API emulator (CC0) with an aws-emulator skill so Claude Code and Cursor can install, start and point the AWS CLI or SDK at it, with no AWS account required.",
+    "url": "https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html",
+    "repoUrl": "https://github.com/aws/aws-emulator",
+    "githubStars": 5451,
+    "tags": [
+      "official",
+      "aws",
+      "emulator",
+      "skill",
+      "local"
+    ],
+    "worksWith": [
+      "claude-code",
+      "cursor"
+    ],
+    "addedAt": "2026-11-13"
+  },
+  {
+    "slug": "pomerado",
+    "name": "Pomerado",
+    "type": "mcp-server",
+    "category": "mcp-tooling",
+    "description": "Pomerado's hosted MCP (MIT open-source core) turns a website workflow into a reusable API so Claude Code, Codex and other MCP clients can call legacy sites that have no public API.",
+    "url": "https://pomerado.ai/",
+    "repoUrl": "https://github.com/Pomerado/pomerado",
+    "githubStars": 1680,
+    "tags": [
+      "hosted",
+      "open-source",
+      "websites",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-13"
+  },
+  {
+    "slug": "remotepc-mcp",
+    "name": "RemotePC MCP",
+    "type": "mcp-server",
+    "category": "agent-infra",
+    "description": "RemotePC's official hosted MCP (OAuth 2.1 at mcp.remotepc.com) so Claude, Cursor and Codex can list online computers, capture screens, send on-screen messages and run supported maintenance.",
+    "url": "https://www.remotepc.com/mcp-for-ai",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "remote-desktop"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-13"
   }
 ]
