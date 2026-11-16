@@ -4387,5 +4387,104 @@
       "cursor"
     ],
     "addedAt": "2026-11-13"
+  },
+  {
+    "slug": "codemesh",
+    "name": "CodeMesh",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "CodeMesh's official hosted MCP (OAuth 2.1, read-only) so Claude Code, Codex, Cursor and other MCP clients can query a structural code graph for the exact spans they need, instead of re-reading whole files.",
+    "url": "https://codemesh.cloud/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "knowledge-graph",
+      "code-navigation"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode",
+      "opencode"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "slug": "byteask-context",
+    "name": "ByteAsk Context",
+    "type": "mcp-server",
+    "category": "dev-tools",
+    "description": "ByteAsk's official hosted MCP (at context.byteask.ai) so Claude Code, Codex, Cursor and other MCP clients can locate C/C++ symbols, callers and likely fix sites from the project's real build, plus source-level navigation for other languages.",
+    "url": "https://byteask.ai/context",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "code-navigation",
+      "c-cpp",
+      "mcp"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "slug": "reah-mcp",
+    "name": "Reah MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Reah's official hosted MCP (OAuth; production is read-only) so Claude Code, Codex, Cursor and other MCP clients can query live business balances, card spending, transactions and treasury positions for authorized Businesses.",
+    "url": "https://support.reah.com/help/articles/1046830-connect-your-ai-tool-to-reah-with-reah-mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "read-only",
+      "finance"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "slug": "apitally-mcp",
+    "name": "Apitally MCP",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Apitally's official hosted MCP (consent login at mcp.apitally.io) so Claude Code, Codex, Cursor and VS Code can analyze API metrics, errors, logs and traces, and optionally create apps or alert rules with read-write access.",
+    "url": "https://docs.apitally.io/agents/mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "api",
+      "observability"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-16"
   }
 ]
