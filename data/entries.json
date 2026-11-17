@@ -4486,5 +4486,103 @@
       "vscode"
     ],
     "addedAt": "2026-11-16"
+  },
+  {
+    "slug": "ngrok-mcp",
+    "name": "ngrok MCP",
+    "type": "mcp-server",
+    "category": "cloud",
+    "description": "ngrok's official hosted MCP at mcp.ngrok.com (browser sign-in) so Claude Code, Codex, Cursor and Gemini CLI can inspect endpoints and traffic, check usage, and write Traffic Policy rules on every plan, including free.",
+    "url": "https://ngrok.com/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "tunneling",
+      "devops"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode",
+      "opencode"
+    ],
+    "addedAt": "2026-11-17"
+  },
+  {
+    "slug": "turbo-browser-mcp",
+    "name": "Turbo Browser MCP",
+    "type": "mcp-server",
+    "category": "browser",
+    "description": "Open-source Playwright MCP (npx turbo-browser-mcp) that fills a form in one call, returns compact DOM deltas, batches actions, and blocks Submit/Pay clicks by default until you allow them.",
+    "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+    "repoUrl": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+    "githubStars": 126,
+    "tags": [
+      "open-source",
+      "community",
+      "browser",
+      "playwright",
+      "local"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor"
+    ],
+    "addedAt": "2026-11-17"
+  },
+  {
+    "slug": "okara-mcp",
+    "name": "Okara MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Okara's official hosted marketing MCP at okara.ai/api/mcp (OAuth, no API key) so Claude Code, Codex, Cursor and Gemini CLI can check SEO, write and publish social posts, and research Reddit threads from chat.",
+    "url": "https://okara.ai/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "seo",
+      "marketing"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "windsurf"
+    ],
+    "addedAt": "2026-11-17"
+  },
+  {
+    "slug": "tokeneconomizer",
+    "name": "TokenEconomizer",
+    "type": "agent-tool",
+    "category": "workflows",
+    "description": "Microsoft plugin that cuts coding-agent cost in repos you use often by learning repo facts, pruning unused tools and nudging stuck turns; works with Claude Code and Codex (Cursor, OpenCode and Hermes are experimental).",
+    "url": "https://github.com/microsoft/TokenEconomizer",
+    "repoUrl": "https://github.com/microsoft/TokenEconomizer",
+    "githubStars": 7166,
+    "tags": [
+      "official",
+      "microsoft",
+      "open-source",
+      "plugin",
+      "cost"
+    ],
+    "worksWith": [
+      "claude-code",
+      "codex"
+    ],
+    "addedAt": "2026-11-17"
   }
 ]
