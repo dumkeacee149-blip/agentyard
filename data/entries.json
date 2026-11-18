@@ -4052,7 +4052,7 @@
     "name": "Pantheon MCP Server",
     "type": "mcp-server",
     "category": "cloud",
-    "description": "Pantheon's remote MCP (mcp.pantheon.io) lets Claude Code, Codex and Cursor manage sites, environments, builds and deploys under your Pantheon identity; write actions need explicit approval (public beta).",
+    "description": "Pantheon's remote MCP (mcp.pantheon.io) lets Claude Code, Codex, Cursor, Gemini and Devin manage sites, environments, builds and deploys under your Pantheon identity; write actions need explicit approval (public beta).",
     "url": "https://docs.pantheon.io/guides/mcp",
     "repoUrl": null,
     "githubStars": null,
@@ -4067,7 +4067,9 @@
       "any-mcp",
       "claude-code",
       "codex",
-      "cursor"
+      "cursor",
+      "gemini-cli",
+      "windsurf"
     ],
     "addedAt": "2026-11-10"
   },
@@ -4584,5 +4586,51 @@
       "codex"
     ],
     "addedAt": "2026-11-17"
+  },
+  {
+    "slug": "dragonfly-cloud-mcp",
+    "name": "Dragonfly Cloud MCP",
+    "type": "mcp-server",
+    "category": "databases",
+    "description": "Dragonfly Cloud's official hosted MCP at api.dragonflydb.cloud/v1/mcp (OAuth or scoped API key; read-only by default) so Claude Code, Cursor and VS Code can inspect datastores and metrics, run read-only commands, and optionally manage stores, backups and networks.",
+    "url": "https://www.dragonflydb.io/docs/cloud/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "redis",
+      "cloud"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-18"
+  },
+  {
+    "slug": "cedardb-mcp",
+    "name": "CedarDB MCP",
+    "type": "mcp-server",
+    "category": "databases",
+    "description": "CedarDB Cloud's official hosted MCP at api.app.cedardb.cloud/mcp (account sign-in) so Claude Code and Claude can query or change only the tables you grant to a dedicated cedar_mcp database user, then write schema-accurate application code.",
+    "url": "https://cedardb.com/docs/cloud/ai_agents/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "postgres",
+      "cloud"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code"
+    ],
+    "addedAt": "2026-11-18"
   }
 ]
