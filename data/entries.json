@@ -370,20 +370,21 @@
     "name": "Suno MCP",
     "type": "mcp-server",
     "category": "design",
-    "description": "Official Suno MCP (beta) for creating songs, remixes, covers and full tracks from voice memos inside Claude, ChatGPT and Claude Code; early-access signup, uses your Suno credits.",
-    "url": "https://suno.com/release-notes/suno-mcp-beta",
+    "description": "Suno's official hosted MCP at api.suno.com/mcp (sign in with your Suno account, no API key) so Claude Code, Cursor and Gemini can create, extend and cover songs, plus visuals on paid plans; uses your Suno credits and saves to your library.",
+    "url": "https://suno.com/mcp",
     "repoUrl": null,
     "githubStars": null,
     "tags": [
       "music",
       "audio",
       "official",
-      "hosted",
-      "beta"
+      "hosted"
     ],
     "worksWith": [
       "any-mcp",
-      "claude-code"
+      "claude-code",
+      "cursor",
+      "gemini-cli"
     ],
     "addedAt": "2026-10-29"
   },
@@ -4632,5 +4633,78 @@
       "claude-code"
     ],
     "addedAt": "2026-11-18"
+  },
+  {
+    "slug": "redis-cloud-mcp",
+    "name": "Redis Cloud MCP",
+    "type": "mcp-server",
+    "category": "databases",
+    "description": "Redis's official hosted MCP at cloud.mcp.redis.io/mcp (API account and user keys) so Claude Code, Codex, Cursor and VS Code can manage Redis Cloud subscriptions, databases and Agent Memory stores; it does not read or write data inside databases (use Redis MCP for that).",
+    "url": "https://redis.io/docs/latest/integrate/redis-mcp/remote-cloud-mcp/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "redis",
+      "cloud"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-18"
+  },
+  {
+    "slug": "sysdig-monitor-mcp",
+    "name": "Sysdig Monitor MCP",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "Sysdig's official hosted Monitor MCP (OAuth; region-specific URL such as app.sysdigcloud.com/mcp/monitor) so Claude Code, Cursor, Codex and OpenCode can query live Kubernetes metrics, logs, pod manifests and PromQL without a static API key.",
+    "url": "https://docs.sysdig.com/en/sysdig-monitor/monitor-ai/sysdig-monitor-mcp-server/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "kubernetes",
+      "monitoring"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "opencode"
+    ],
+    "addedAt": "2026-11-18"
+  },
+  {
+    "slug": "ai-lounge-mcp",
+    "name": "AI Lounge MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "AI Lounge's official hosted MCP at mcp.lounge.ai/mcp (OAuth, read-only, free for members) so Claude Code, Codex and Cursor can look up investors, deals, revenue data, members and mastermind recaps.",
+    "url": "https://ai.lounge.ai/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "community",
+      "investors"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "addedAt": "2026-11-20"
   }
 ]
