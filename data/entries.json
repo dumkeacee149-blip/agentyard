@@ -4706,5 +4706,92 @@
       "cursor"
     ],
     "addedAt": "2026-11-20"
+  },
+  {
+    "slug": "pandex",
+    "name": "Pandex",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "Pandex's official hosted MCP at api.pandex.io/mcp (API key; 50 requests/day without a key) so Claude Code, Cursor, Windsurf and Gemini can search and quote official EU and national legislation and court decisions, with citations and past versions.",
+    "url": "https://www.pandex.io/",
+    "repoUrl": "https://github.com/pandex-io/pandex-mcp",
+    "githubStars": 2,
+    "tags": [
+      "official",
+      "hosted",
+      "legal",
+      "search"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "windsurf"
+    ],
+    "addedAt": "2026-11-21"
+  },
+  {
+    "slug": "pinecast-mcp",
+    "name": "Pinecast MCP",
+    "type": "mcp-server",
+    "category": "productivity",
+    "description": "Pinecast's official hosted MCP at pinecast.com/mcp (OAuth or access token; all plans with a verified email) so Claude Code and other agents can list, create and update podcast episodes and clips, with optional delete access.",
+    "url": "https://help.pinecast.com/article/211-connecting-an-ai-agent-to-pinecast",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "podcasts"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code"
+    ],
+    "addedAt": "2026-11-22"
+  },
+  {
+    "slug": "canva-mcp",
+    "name": "Canva MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Canva's official hosted MCP at api.canva.com/connect/v1/mcp (OAuth; waitlist removed Nov 23) so Claude, ChatGPT, Gemini, Muse and coding agents can generate, search, edit and export Canva designs.",
+    "url": "https://www.canva.dev/docs/apps/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "design"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor"
+    ],
+    "addedAt": "2026-11-23"
+  },
+  {
+    "slug": "mural-mcp",
+    "name": "Mural MCP",
+    "type": "mcp-server",
+    "category": "productivity",
+    "description": "Mural's official hosted MCP, now available on all plans, so Claude, ChatGPT, Cursor, Copilot and Gemini can read and write canvases, organize ideas, and send actions to tools like Jira and Linear.",
+    "url": "https://www.mural.co/ai/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "collaboration"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "cursor"
+    ],
+    "addedAt": "2026-11-24"
   }
 ]
