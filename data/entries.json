@@ -4834,5 +4834,22 @@
       "claude-code"
     ],
     "addedAt": "2026-11-24"
+  },
+  {
+    "slug": "cloudbrowser",
+    "name": "Cloudbrowser",
+    "type": "agent-tool",
+    "category": "agent-infra",
+    "description": "Hosts isolated Chrome desktops for AI agent workflows. Connect over CDP and pause, resume, or fork browser profiles through the console, CLI, or API.",
+    "url": "https://cloudbrowser.tv/",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "cloud-browser",
+      "browser-automation",
+      "agent-infrastructure"
+    ],
+    "worksWith": [],
+    "addedAt": "2026-11-25"
   }
 ]
