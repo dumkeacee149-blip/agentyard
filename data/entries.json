@@ -4793,5 +4793,46 @@
       "cursor"
     ],
     "addedAt": "2026-11-24"
+  },
+  {
+    "slug": "google-workspace-official-mcp",
+    "name": "Google Workspace Official MCP",
+    "type": "mcp-server",
+    "category": "productivity",
+    "description": "Google's official hosted Workspace MCP servers (GA Nov 24; OAuth via a Cloud project or personal-mode setup) so Claude, Antigravity and other MCP clients can read and act in Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat, Tasks and Classroom, plus Universal Search at workspacemcp.googleapis.com.",
+    "url": "https://developers.google.com/workspace/guides/configure-mcp-servers",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "google-workspace"
+    ],
+    "worksWith": [
+      "any-mcp"
+    ],
+    "addedAt": "2026-11-24"
+  },
+  {
+    "slug": "j-quants-mcp",
+    "name": "J-Quants MCP",
+    "type": "mcp-server",
+    "category": "search",
+    "description": "JPXI's official remote MCP at mcp.jquants.com/mcp (OAuth; any J-Quants plan including Free, launched Nov 24) so Claude, Claude Code and ChatGPT can query Japanese stock prices, financials and related market data within the subscriber's plan.",
+    "url": "https://jpx-jquants.com/en/spec/mcp-server",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "market-data"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code"
+    ],
+    "addedAt": "2026-11-24"
   }
 ]
