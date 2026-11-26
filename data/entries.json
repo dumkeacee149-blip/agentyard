@@ -4834,5 +4834,49 @@
       "claude-code"
     ],
     "addedAt": "2026-11-24"
+  },
+  {
+    "slug": "alta-mcp",
+    "name": "Alta MCP",
+    "type": "mcp-server",
+    "category": "business",
+    "description": "Alta's official hosted MCP at api.altahq.com/mcp (OAuth 2.1; requires an Alta account, announced Nov 25) so Claude, ChatGPT, Codex, Cursor and VS Code can search prospects, enrich contacts and draft multichannel outreach campaigns.",
+    "url": "https://docs.altahq.com/mcp/introduction",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "sales"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "cursor",
+      "codex",
+      "vscode"
+    ],
+    "addedAt": "2026-11-25"
+  },
+  {
+    "slug": "peerband",
+    "name": "PeerBand",
+    "type": "mcp-server",
+    "category": "agent-infra",
+    "description": "PeerBand's official hosted MCP at mcp.peerband.com/mcp (OAuth; free plan up to 3 machines, launched Nov 25) so ChatGPT, Claude and other MCP clients can list and message coding agents running in Herdr, with optional Telegram alerts.",
+    "url": "https://peerband.com/docs",
+    "repoUrl": "https://github.com/kshvidler/peerband-cli",
+    "githubStars": 1,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "open-source",
+      "relay"
+    ],
+    "worksWith": [
+      "any-mcp"
+    ],
+    "addedAt": "2026-11-25"
   }
 ]
