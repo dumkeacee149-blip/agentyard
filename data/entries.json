@@ -4878,5 +4878,82 @@
       "any-mcp"
     ],
     "addedAt": "2026-11-25"
+  },
+  {
+    "slug": "watchfor-mcp",
+    "name": "WatchFor MCP",
+    "type": "mcp-server",
+    "category": "observability",
+    "description": "WatchFor's official hosted MCP at watchfor.io/api/mcp (OAuth 2.1; plugin for Claude Code, Cursor and Codex announced Nov 25) so agents can manage uptime monitors, investigate incidents and run diagnostics across 64 tools.",
+    "url": "https://watchfor.io/docs/api/mcp",
+    "repoUrl": "https://github.com/watchfor-io/agent-toolkit",
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "monitoring",
+      "plugin"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-25"
+  },
+  {
+    "slug": "glif-mcp",
+    "name": "Glif MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Glif's official hosted MCP at glif.app/api/mcp (OAuth; skills-over-MCP and background tasks announced Nov 25) so Claude Code, Codex, Cursor, Gemini CLI and other agents can generate images, video and audio from your Glif account.",
+    "url": "https://glif.app/mcp",
+    "repoUrl": "https://github.com/glifxyz/glif-mcp-server",
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "generative-media",
+      "skill"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "vscode",
+      "openclaw",
+      "hermes"
+    ],
+    "addedAt": "2026-11-25"
+  },
+  {
+    "slug": "loudly-mcp",
+    "name": "Loudly MCP",
+    "type": "mcp-server",
+    "category": "design",
+    "description": "Loudly's official hosted MCP at mcp.loudly.com (OAuth; requires a paid Loudly plan, launched Nov 26) so Claude, ChatGPT, Claude Code, Cursor and VS Code can analyse, generate, split, mix and master tracks with 42 tools.",
+    "url": "https://www.loudly.com/mcp",
+    "repoUrl": null,
+    "githubStars": null,
+    "tags": [
+      "official",
+      "hosted",
+      "oauth",
+      "music",
+      "audio"
+    ],
+    "worksWith": [
+      "any-mcp",
+      "claude-code",
+      "cursor",
+      "vscode"
+    ],
+    "addedAt": "2026-11-26"
   }
 ]
